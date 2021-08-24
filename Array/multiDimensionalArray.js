@@ -7,7 +7,8 @@ for(let row = 0 ; row < num.length ; row++){
         total += num[row][col];
         
     }
-    console.log(`total marks get..${total}`);
+    console.log(`total marks get..${total} \n`);
     avg = total/num[row].length;
-    console.log(`average of ${total} is ${parseInt(avg)}`);
+    console.log(`average of ${total} is ${parseInt(avg)} \n`);
+    total = 0;
 }
