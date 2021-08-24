@@ -43,4 +43,4 @@ console.log(stack1.pop());
 console.log(stack1.clear());
 console.log(stack1);
 
-
+ 
